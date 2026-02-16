@@ -1,0 +1,143 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le meilleur CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="wazabi.;webp" type="image/x.icon">
+</head>
+
+<body>
+    <!-- <div class="hero"> 
+
+        <h1>WAZABI BOY</h1>
+
+        <h2>Développeur d'applications et testeur en Cybersécurité</h2>
+
+        <p>Je suis un développeur d'applications et testeur en cybersécurité passionné par la création de solutions
+            innovantes et la protection des systèmes contre les menaces potentielles. Avec une expertise en
+            développement et en sécurité informatique, je m'efforce de concevoir des applications robustes
+            tout en assurant leur sécurité contre les vulnérabilités.</p>
+
+    </div>-->
+
+    <header>
+        <img src="wazabi.webp" alt="Photo de profil" class="logo">
+        <h2>Wazabi Boy</h2>
+        <h3>Développeur d'applications et testeur en Cybersécurité</h3>
+    </header>
+    
+    <main>
+    
+    <aside class="sidebar">
+
+        <section>
+            <h4>Contact</h4>
+            <ul>
+                <li><a href="#">wazabiboy@exemple.com</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Indeed</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h4>Savoir-Etre</h4>
+            <ul>
+                <li>Ponctualité</li>
+                <li>Autonomie</li>
+                <li>Esprit d'équipe</li>
+                <li>Moche et méchant</li>
+                <li>Génie du mal</li>
+
+            </ul>
+        </section>
+
+        <section>
+            <h4>Langues</h4>
+            <ul>
+                <li>Français (maternelle)</li>
+                <li>Arabe (maternelle)</li>
+                <li>Anglais (confirmé/technique)</li>
+                <li>Espagnol (intermédiaire/technique)</li>
+                <li>Allemand (notions)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h4>Loisirs</h4>
+            <ul>
+                <li>Badminton</li>
+                <li>Pratique du tuba</li>
+                <li>Jeux-vidéo</li>
+                <li>Taxidermie</li>
+            </ul>
+        </section>
+    </aside>
+
+
+
+        
+             <section class="savoir-faire">
+                <button id="afficherBouton" class="button">Savoir-Faire</button>
+                <ul id="contenuCache" class="cache">
+                    <li>Développement d'applications web et mobiles</li>
+                    <li>Test de pénétration et évaluation de la sécurité</li>
+                    <li>Analyse des vulnérabilités et gestion des risques</li>
+                    <li>Conception de solutions de sécurité personnalisées</li>
+                    <li>Formation et sensibilisation à la cybersécurité</li>
+                    <li>Veille technologique et mise à jour des connaissances en sécurité</li>
+                 </ul>
+             </section>
+
+            <section class="projets">
+                <button id="afficherBouton" class="button">Projets Réalisés</button>
+                <ul id="contenuCache" class="cache">
+                    <li>Application de gestion de tâches sécurisée</li>
+                    <li>Système de détection d'intrusion réseau</li>
+                    <li>Plateforme de formation en cybersécurité</li>
+                    <li>Outil d'analyse de vulnérabilités pour les applications web</li>
+                    <li>Création de scripts de sécurité automatisés</li>
+                    <li>Participation à des projets de cybersécurité open source</li>
+                </ul>
+            </section>
+        
+        
+
+        <section class="experiences">
+            <button id="afficherBouton">Expérience Professionnelle</button>
+            <ul id="contenuCache" class="cache">
+                <li>Stage de développement d'applications web et mobiles</li>
+                <li>Intervention en cybersécurité dans des entreprises de taille moyenne</li>
+                <li>Collaboration avec des équipes de sécurité informatique</li>
+            </ul>
+        </section>
+
+        <section class="diplomes">
+            <button id="afficherBouton">Diplômes et Formations</button>
+            <ul id="contenuCache" class="cache">
+                <li>Bachelor en Informatique et Cybersécurité</li>
+                <li>Certification en Sécurité des Systèmes d'Information</li>
+                <li>Formation continue en Techniques de Développement Web</li>
+            </ul>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Wazabi Boy. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        const button=document.getElementById('afficherBouton');
+        const contenu=document.getElementById('contenuCache');
+
+        button.addEventListener("click", () => {
+            contenu.classList.toggle("visible")
+        })
+    </script>
+</body>
+
+</html>
